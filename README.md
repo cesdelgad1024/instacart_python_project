@@ -1,6 +1,6 @@
-# Instacart — Large-Scale Data Wrangling (3M+ orders)
+# Instacart — Large-Scale Data Wrangling (3M+ orders, 32M+ rows)
 
-A Python data pipeline over the **Instacart** grocery dataset (**3M+ orders**), built
+A Python data pipeline over the **Instacart** grocery dataset (**3M+ orders, 32M+ rows**), built
 across an 11-notebook workflow: data-quality validation, multi-table merges, derived
 feature creation, and grouped aggregation with pandas and Jupyter.
 
@@ -19,14 +19,14 @@ feature creation, and grouped aggregation with pandas and Jupyter.
 | `9_coding etiquette.ipynb` | Clean, reproducible-code practices |
 
 ## What it demonstrates
-- **Working at scale** — an 11-notebook pipeline over a 3M+ order dataset
+- **Working at scale** — an 11-notebook pipeline over a 3M+ order (32M+ row) dataset
 - **Data-quality engineering** — consistency checks, missing/duplicate handling, type validation
 - **Transformation pipeline** — merges → derived features → grouped aggregation → export
 - **Stack** — Python · pandas · numpy · matplotlib / seaborn · Jupyter
 
 ## Viewing the notebooks
 The notebooks render directly on GitHub with every output saved, so no setup is needed to read them.
-The raw Instacart data (3M+ orders) is too large to commit and is not included in the repo.
+The raw Instacart data (3M+ orders, 32M+ rows) is too large to commit and is not included in the repo.
 
 ---
 *Large-scale data-wrangling foundation on my path into cloud data engineering — see
