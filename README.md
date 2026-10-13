@@ -24,13 +24,9 @@ feature creation, and grouped aggregation with pandas and Jupyter.
 - **Transformation pipeline** — merges → derived features → grouped aggregation → export
 - **Stack** — Python · pandas · numpy · matplotlib / seaborn · Jupyter
 
-## Run it
-```bash
-git clone https://github.com/cesdelgad1024/instacart_python_project.git
-cd instacart_python_project
-pip install pandas numpy matplotlib seaborn jupyterlab
-jupyter lab   # open the notebooks in order
-```
+## Viewing the notebooks
+The notebooks render directly on GitHub with every output saved, so no setup is needed to read them.
+The raw Instacart data (3M+ orders) is too large to commit and is not included in the repo.
 
 ---
 *Large-scale data-wrangling foundation on my path into cloud data engineering — see
